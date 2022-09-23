@@ -1,0 +1,166 @@
+html {
+  font-size: 100%;
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+.img {
+  background-image: url(./img/image.png);
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  width: 100rem;
+  height: 64.438rem;
+  padding: 1.438rem 33.5rem 13.313rem 33.563rem;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+.login-box {
+  width: 32.938rem;
+  height: 36rem;
+  margin: 11.813rem 0 0;
+  padding: 3.313rem 3.563rem 3.25rem 3.438rem;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+  box-shadow: 0 52px 54px 0 rgba(65, 62, 101, 0.25);
+  background-color: rgba(0, 0, 0, 0.44);
+}
+.signin-box h1 {
+  
+  width: 11.563rem;
+  height: 3.5rem;
+  margin: 0 7.125rem 0.625rem 11.25rem;
+  font-family: CircularStd;
+  font-size: 3.75rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.93;
+  letter-spacing: -1.03px;
+  text-align: center;
+  color: #fff;
+}
+.details p {
+  width: 18.063rem;
+  height: 2.438rem;
+  margin: 0.625rem 3.875rem 2.313rem 7.6rem;
+  font-family: CircularStd;
+  font-size: 1.313rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: -0.66px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.input-box1 .input-box2 {
+  width: 25.813rem;
+  height: 4.563rem;
+}
+.input-box1 input {
+  
+  width: 30.04rem;
+  height: 2rem;
+  margin: 1.063rem 0.063rem 0.938rem;
+  padding: 1.438rem 1rem 1.375rem 1.688rem;
+  border-radius: 10px;
+  border: solid 1px #eae9f2;
+  background-color: #fff;
+}
+
+.input-box2 input {
+ 
+  width: 30.04rem;
+  height: 2rem;
+  margin: 1.063rem 0.063rem 0.938rem;
+  padding: 1.438rem 1rem 1.375rem 1.688rem;
+  border-radius: 10px;
+  border: solid 1px #eae9f2;
+  background-color: #fff;
+}
+.check-box {
+  
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  width: 25rem;
+  height: 1.75rem;
+  margin: 0 0 0 0.75rem;
+  font-family: CircularStd;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: rgba(255, 255, 255, 0.7);
+}
+.check-box label {
+  padding-left: 1rem;
+}
+
+.btn button {
+  width: 32.96rem;
+  height: 3.75rem;
+  box-sizing: border-box;
+  padding: 1.063rem 6.688rem 1rem 6.625rem;
+  border-radius: 10px;
+  border: solid 1px #c31a12;
+  background-color: #c31a12;
+  cursor: pointer;
+}
+.content {
+  /* display: flex;
+  padding-left: 5rem; */
+  padding-top: 1.125rem;
+  text-align: center;
+
+}
+.content a {
+  padding: 1rem 0rem 0rem 0rem;
+  display: contents;
+  font-family: CircularStd;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fedc5a;
+}
+.content p {
+  
+  display: contents;
+  font-family: CircularStd;
+  font-size: 1rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+.p1 {
+  margin: -1rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 1rem;
+  color: red;
+}
+.p2 {
+  margin: -1rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 1rem;
+  color: red;
+}
